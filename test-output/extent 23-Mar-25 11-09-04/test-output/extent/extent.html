@@ -1,0 +1,1800 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 23, 2025 11:09:04 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@docuportDb</a><a class="dropdown-item" href="#">@leads</a><a class="dropdown-item" href="#">@AA</a><a class="dropdown-item" href="#">@ui</a><a class="dropdown-item" href="#">@advisor</a><a class="dropdown-item" href="#">@smoke</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify user tables names</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:00:283</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify user tables names</h5>
+<span class='badge badge-success'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-danger'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-default'>00:00:00:283</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>verify users table columns</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.DBSteps.establish_the_database_connection()">
+                <span>Given Establish the database connection</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.DBSteps.execute_query_to_get_all_columns()">
+                <span>When Execute query to get all columns</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.DBSteps.verify_the_below_columns_are_listed_in_result(java.util.List<java.lang.String>)">
+                <span>Then verify the below columns are listed in result</span>
+      <div><table class='markup-table table '><tr><td>id</td></tr><tr><td>first_name</td></tr><tr><td>last_name</td></tr><tr><td>email_address</td></tr><tr><td>phone_number</td></tr><tr><td>role_name</td></tr><tr><td>supervisor_user_id</td></tr><tr><td>advisor_user_id</td></tr><tr><td>department_id</td></tr><tr><td>department_name</td></tr><tr><td>username</td></tr><tr><td>inviter_user_id</td></tr><tr><td>is_lead_onboarding_completed</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Docuport Login Logout Feature</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:00:024</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Docuport Login Logout Feature</h5>
+<span class='badge badge-success'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-danger'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-default'>00:00:00:024</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>Login as a client</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_username_for_client()">
+                <span>When user enters username for client</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_password_for_client()">
+                <span>And user enters password for client</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_be_able_to_see_the_home_for_client()">
+                <span>Then user should be able to see the home for client</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_successfully_logout()">
+                <span>And user should successfully logout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>Login as a employee</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_username_for_employee()">
+                <span>When user enters username for employee</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_password_for_employee()">
+                <span>And user enters password for employee</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_be_able_to_see_the_home_for_employee()">
+                <span>Then user should be able to see the home for employee</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_successfully_logout()">
+                <span>And user should successfully logout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="27"><span class="badge log fail-bg mr-2">Fail</span>Login as a advisor</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_username_for_advisor()">
+                <span>When user enters username for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_password_for_advisor()">
+                <span>And user enters password for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_be_able_to_see_the_home_for_advisor()">
+                <span>Then user should be able to see the home for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_successfully_logout()">
+                <span>And user should successfully logout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="36"><span class="badge log fail-bg mr-2">Fail</span>Login as a supervisor</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_username_for_supervisor()">
+                <span>When user enters username for supervisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_password_for_supervisor()">
+                <span>And user enters password for supervisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_be_able_to_see_the_home_for_supervisor()">
+                <span>Then user should be able to see the home for supervisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_successfully_logout()">
+                <span>And user should successfully logout</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="45"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Advisor Cannot Create Client Without Required Fields</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:00:016</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Advisor Cannot Create Client Without Required Fields</h5>
+<span class='badge badge-success'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-danger'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-default'>00:00:00:016</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="46"><span class="badge log fail-bg mr-2">Fail</span>As Advisor create a new <clientType> client with empty first and last name inputs</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="47"><span class="badge log fail-bg mr-2">Fail</span>As Advisor create a new Business client with empty first and last name inputs</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user enters username for advisor</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters password for advisor</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should be able to see the home for advisor</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user clicks Clients on left navigation Page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should see Clients page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user clicks Create new client dropdown and choose "Business"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And create new client window popped up user clicks Create new user checkbox</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user fills out all required fields except first and last name for "Business"</span>
+      <div><table class='markup-table table '><tr><td>Email</td><td>l.kramer@gmail.com</td></tr><tr><td>Advisor</td><td>advisor advisor</td></tr><tr><td>Phone number</td><td>3109752607</td></tr><tr><td>Password</td><td>LolaGladiola1</td></tr><tr><td>Confirm Password</td><td>LolaGladiola1</td></tr><tr><td>Company name</td><td>Big Deals</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user clicks save</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then an error message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And validate that user was not created</span>
+      <div><table class='markup-table table '><tr><td>l.kramer@gmail.com</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="63"><span class="badge log fail-bg mr-2">Fail</span>As Advisor create a new Personal client with empty first and last name inputs</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user enters username for advisor</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters password for advisor</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should be able to see the home for advisor</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user clicks Clients on left navigation Page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should see Clients page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user clicks Create new client dropdown and choose "Personal"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And create new client window popped up user clicks Create new user checkbox</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user fills out all required fields except first and last name for "Personal"</span>
+      <div><table class='markup-table table '><tr><td>Email</td><td>k.glad@gmail.com</td></tr><tr><td>Advisor</td><td>advisor advisor</td></tr><tr><td>Phone number</td><td>3109752607</td></tr><tr><td>Password</td><td>LolaGladiola1</td></tr><tr><td>Confirm Password</td><td>LolaGladiola1</td></tr><tr><td>Company name</td><td>Big Deals</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user clicks save</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then an error message should be displayed</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And validate that user was not created</span>
+      <div><table class='markup-table table '><tr><td>k.glad@gmail.com</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="79"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table.</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:00:006</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table.</h5>
+<span class='badge badge-success'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-danger'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-default'>00:00:00:006</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=79</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="80"><span class="badge log fail-bg mr-2">Fail</span>verify UI leads matches in DB</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUpDB()</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.step_definitions.Hook.setUpDB(Hook.java:50)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_username_for_advisor()">
+                <span>When user enters username for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_password_for_advisor()">
+                <span>And user enters password for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LeadsStepsDefs.the_user_navigates_to_page(java.lang.String)">
+                <span>And the user navigates to "Leads" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LeadsStepsDefs.the_user_gets_all_the_leads_information_based_on_and_and(java.lang.String,java.lang.String,java.lang.String)">
+                <span>When the user gets all the leads information based on "Full name" and "Email address" and "Phone number"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LeadsStepsDefs.verify_leads_information_match_in_db()">
+                <span>Then verify leads information match in DB</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="92"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Click buttons advisor</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:00:002</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Click buttons advisor</h5>
+<span class='badge badge-success'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-danger'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=92</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="93"><span class="badge log fail-bg mr-2">Fail</span>Click buttons on different pages as a client</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_username_for_advisor()">
+                <span>When user enters username for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_enters_password_for_advisor()">
+                <span>And user enters password for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>And user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_should_be_able_to_see_the_home_for_client()">
+                <span>Then user should be able to see the home for client</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.AdvisorStepDefs.user_clicks_button_on_page(java.lang.String,java.lang.String)">
+                <span>And user clicks "Received Doc" button on "Left Navigate" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.AdvisorStepDefs.user_clicks_button_on_page(java.lang.String,java.lang.String)">
+                <span>And user clicks "Search" button on "Received Doc" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="103"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate Left Navigation items for advisor user</p>
+            <p class="text-sm">
+              <span>11:09:04 AM</span> / <span>00:00:00:002</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Validate Left Navigation items for advisor user</h5>
+<span class='badge badge-success'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-danger'>03.23.2025 11:09:04 AM</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=103</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="104"><span class="badge log fail-bg mr-2">Fail</span>Validate Left nav</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.setUp(Hook.java:26)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_is_on_docuport_login_page()">
+                <span>Given user is on Docuport login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>When user enters username and password for advisor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.LoginStepDefs.user_click_login_button()">
+                <span>When user click login button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="io.docuport_g1.step_definitions.NavBarStepDefs.validate_left_navigation_items(java.util.List<java.lang.String>)">
+                <span>Then validate left navigation items</span>
+      <div><table class='markup-table table '><tr><td>Home</td></tr><tr><td>Received docs</td></tr><tr><td>My uploads</td></tr><tr><td>Clients</td></tr><tr><td>Invitations</td></tr><tr><td>Users</td></tr><tr><td>Leads</td></tr><tr><td>Bookkeeping</td></tr><tr><td>1099 Form</td></tr><tr><td>Reconciliations</td></tr></table>
+      </div>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" >
+                <span>Then user logs out</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "io.docuport_g1.utilities.ConfigurationReader.properties" is null
+	at io.docuport_g1.utilities.ConfigurationReader.getProperties(ConfigurationReader.java:23)
+	at io.docuport_g1.utilities.Driver.getDriver(Driver.java:38)
+	at io.docuport_g1.step_definitions.Hook.tearDown(Hook.java:35)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>21</span>
+</span>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">21 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>21 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Verify user tables names.verify users table columns.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Verify user tables names.verify users table columns.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='10'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a client.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='17'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a client.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='19'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a employee.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='26'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a employee.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='28'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a advisor.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='35'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a advisor.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='37'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a supervisor.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='44'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a supervisor.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='48'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Business client with empty first and last name inputs.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='62'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Business client with empty first and last name inputs.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='64'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Personal client with empty first and last name inputs.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='78'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Personal client with empty first and last name inputs.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='81'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='82'>io.docuport_g1.step_definitions.Hook.setUpDB()</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB.io.docuport_g1.step_definitions.Hook.setUpDB()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='91'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='92' id='94'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Click buttons advisor.Click buttons on different pages as a client.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='92' id='102'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Click buttons advisor.Click buttons on different pages as a client.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='103' id='105'>io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Validate Left Navigation items for advisor user.Validate Left nav.io.docuport_g1.step_definitions.Hook.setUp(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='103' id='111'>io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">Validate Left Navigation items for advisor user.Validate Left nav.io.docuport_g1.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@docuportDb</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@docuportDb</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='80'>verify UI leads matches in DB</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@leads</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@leads</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='80'>verify UI leads matches in DB</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@AA</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@AA</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='47'>As Advisor create a new Business client with empty first and last name inputs</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Business client with empty first and last name inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='63'>As Advisor create a new Personal client with empty first and last name inputs</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Personal client with empty first and last name inputs</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@ui</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@ui</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='47'>As Advisor create a new Business client with empty first and last name inputs</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Business client with empty first and last name inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='63'>As Advisor create a new Personal client with empty first and last name inputs</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Personal client with empty first and last name inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='80'>verify UI leads matches in DB</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@advisor</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@advisor</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='103' id='104'>Validate Left nav</a>
+<div class="">
+<span class="badge badge-default">Validate Left Navigation items for advisor user.Validate Left nav</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>10</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">10 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="fail" class='badge log badge-danger'>10 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>verify users table columns</a>
+<div class="">
+<span class="badge badge-default">Verify user tables names.verify users table columns</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='9'>Login as a client</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a client</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='18'>Login as a employee</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a employee</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='27'>Login as a advisor</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a advisor</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='36'>Login as a supervisor</a>
+<div class="">
+<span class="badge badge-default">Docuport Login Logout Feature.Login as a supervisor</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='47'>As Advisor create a new Business client with empty first and last name inputs</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Business client with empty first and last name inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='45' id='63'>As Advisor create a new Personal client with empty first and last name inputs</a>
+<div class="">
+<span class="badge badge-default">Advisor Cannot Create Client Without Required Fields.As Advisor create a new Personal client with empty first and last name inputs</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='79' id='80'>verify UI leads matches in DB</a>
+<div class="">
+<span class="badge badge-default">As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table..verify UI leads matches in DB</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='92' id='93'>Click buttons on different pages as a client</a>
+<div class="">
+<span class="badge badge-default">Click buttons advisor.Click buttons on different pages as a client</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>11:09:04 AM</td>
+<td>
+<a href="#" class="linked" test-id='103' id='104'>Validate Left nav</a>
+<div class="">
+<span class="badge badge-default">Validate Left Navigation items for advisor user.Validate Left nav</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 23, 2025 11:09:04 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 23, 2025 11:09:04 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>6</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>6</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='100%'><b>10</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
+<div>
+<small data-tooltip='22%'><b>21</b> steps failed,
+<b>72</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Verify user tables names":0.283,"Docuport Login Logout Feature":0.024,"Advisor Cannot Create Client Without Required Fields":0.016,"As a data consumer, I want to make sure the LEADS information from UI are stored in postgres DB correctly in LEADS table.":0.006,"Click buttons advisor":0.002,"Validate Left Navigation items for advisor user":0.002
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@docuportDb</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@leads</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@AA</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@ui</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@advisor</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@smoke</td>
+<td>0</td>
+<td>10</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 6,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 10,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 21,
+warningGrandChild: 0,
+skipGrandChild: 72,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
