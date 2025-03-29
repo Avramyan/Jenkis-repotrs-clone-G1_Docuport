@@ -28,3 +28,6 @@ Feature: Advisor Cannot Create Client Without Required Fields
       | clientType |email|
       | Business   |l.kramer@gmail.com|
       | Personal   |k.glad@gmail.com  |
+
+     @AA
+     Scenario: Hello reports!
